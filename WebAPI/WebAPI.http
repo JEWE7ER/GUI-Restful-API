@@ -1,0 +1,26 @@
+@WebAPI_HostAddress = http://localhost:5074
+
+GET {{WebAPI_HostAddress}}/data/read
+Accept: application/json
+###
+GET {{WebAPI_HostAddress}}/data/read/1
+Accept: application/json
+###
+POST {{WebAPI_HostAddress}}/data/write
+Accept: application/json
+Content-Type: application/json
+
+{"value":"hello world!"}
+###
+PUT {{WebAPI_HostAddress}}/data/1
+Accept: application/json
+Content-Type: application/json
+
+{"value":"hello world! put"}
+###
+DELETE {{WebAPI_HostAddress}}/data/delete
+Accept: application/json
+###
+DELETE {{WebAPI_HostAddress}}/data/delete/1
+Accept: application/json
+###
