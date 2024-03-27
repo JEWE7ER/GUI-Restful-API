@@ -1,0 +1,20 @@
+﻿GUI
+
+
+winexe
+C#
+.cs
+D:\РАБОЧИЙ СТОЛ\ПГНИУ\Безопасность\GUI\GUI\obj\Debug\net8.0-windows\
+GUI
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\РАБОЧИЙ СТОЛ\ПГНИУ\Безопасность\GUI\GUI\App.xaml
+8-743245553
+31632685303
+191236390271
+379-784902421
+AddWindow.xaml;CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;Views\LoginView.xaml;Views\LoginWindow.xaml;Views\RegisterView.xaml;
+
+False
+

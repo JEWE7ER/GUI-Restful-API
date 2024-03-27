@@ -1,0 +1,14 @@
+﻿<Window x:Class="GUI.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="Добавить данные" Height="171" Width="336">
+    <Grid>
+        <TextBox x:Name="dataValue" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="316" Height="75"/>
+        <Button Content="ОК" HorizontalAlignment="Center" Margin="0,102,0,0" VerticalAlignment="Top" Height="32" Width="74" Click="Button_Click"/>
+
+    </Grid>
+</Window>
